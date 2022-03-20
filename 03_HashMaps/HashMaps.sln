@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{229E0B23-0C7D-4444-9A8E-00943BACDB13}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dynamic", "Examples\Dynamic\Dynamic.csproj", "{B7547194-5AE6-4C5C-8C22-FC2A7156071A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashFunctions", "Examples\HashFunctions\HashFunctions.csproj", "{5F045441-0B37-468C-80F1-D266DFF2C90A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homework", "Homework", "{7D48B84E-67BC-486D-A565-BF1CE21A572C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashFunctions", "Homework\HashFunctions\HashFunctions.csproj", "{51310546-77A2-43D9-BF80-9FD8A1CD26D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashMapsAreFast", "Homework\HashMapsAreFast\HashMapsAreFast.csproj", "{43689996-2688-4253-A37E-67A452786EA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeryDynamic", "Homework\VeryDynamic\VeryDynamic.csproj", "{0B0F6CF4-9426-421A-ACA9-2A729E640654}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7547194-5AE6-4C5C-8C22-FC2A7156071A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7547194-5AE6-4C5C-8C22-FC2A7156071A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7547194-5AE6-4C5C-8C22-FC2A7156071A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7547194-5AE6-4C5C-8C22-FC2A7156071A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F045441-0B37-468C-80F1-D266DFF2C90A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F045441-0B37-468C-80F1-D266DFF2C90A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F045441-0B37-468C-80F1-D266DFF2C90A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F045441-0B37-468C-80F1-D266DFF2C90A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51310546-77A2-43D9-BF80-9FD8A1CD26D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51310546-77A2-43D9-BF80-9FD8A1CD26D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51310546-77A2-43D9-BF80-9FD8A1CD26D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51310546-77A2-43D9-BF80-9FD8A1CD26D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43689996-2688-4253-A37E-67A452786EA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43689996-2688-4253-A37E-67A452786EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43689996-2688-4253-A37E-67A452786EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43689996-2688-4253-A37E-67A452786EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B0F6CF4-9426-421A-ACA9-2A729E640654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B0F6CF4-9426-421A-ACA9-2A729E640654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B0F6CF4-9426-421A-ACA9-2A729E640654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B0F6CF4-9426-421A-ACA9-2A729E640654}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B7547194-5AE6-4C5C-8C22-FC2A7156071A} = {229E0B23-0C7D-4444-9A8E-00943BACDB13}
+		{5F045441-0B37-468C-80F1-D266DFF2C90A} = {229E0B23-0C7D-4444-9A8E-00943BACDB13}
+		{51310546-77A2-43D9-BF80-9FD8A1CD26D0} = {7D48B84E-67BC-486D-A565-BF1CE21A572C}
+		{43689996-2688-4253-A37E-67A452786EA5} = {7D48B84E-67BC-486D-A565-BF1CE21A572C}
+		{0B0F6CF4-9426-421A-ACA9-2A729E640654} = {7D48B84E-67BC-486D-A565-BF1CE21A572C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C5DC504-6724-4C4C-92C0-BC973357054F}
+	EndGlobalSection
+EndGlobal
